@@ -1,3 +1,5 @@
 # xdan-nvim-dotfiles
 My nvim dotfiles
-clone in ~/.config/nvim/
+``` cd ~/.config/nvim/
+    git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
+```

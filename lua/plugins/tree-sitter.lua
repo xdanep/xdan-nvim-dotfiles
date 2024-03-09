@@ -14,6 +14,7 @@ return {
 			"cpp",
 			"python",
 			"rust",
+      "arduino",
 		},
 		highlight = {
 			enable = true,

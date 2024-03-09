@@ -4,9 +4,21 @@ return {
     "williamboman/mason.nvim",
     "folke/neodev.nvim",
   },
+
   config = function()
+    vim.keymap.set('n', '<space>e', vim.diagnostic.open_float)
+    vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
+    vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
+    vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist)
+
+    local on_attach = function(client, bufnr)
+      vim.bo[bufnr].omnifunc = 'v:lua.vim.lsp.omnifunc'
+      vim.keymap.set('n','K', vim.lsp.buf.hover, {buffer = bufnr})
+    end
+
     require("neodev").setup()
-    require("lspconfig").lua_ls.clangd.cmake.arduino_language_server.setup({
+    require("lspconfig").lua_ls.setup({
+      on_attach = on_attach,
       settings = {
         Lua = {
           telemetry = { enable = false },
@@ -14,5 +26,14 @@ return {
         }
       }
     })
+
+    require("lspconfig").clangd.setup {
+      on_attach = function(client, bufnr)
+        client.server_capabilities.sigantureHelpProvider = false
+        on_attach(client,bufnr)
+      end,
+    }
+    require("lspconfig").cmake.setup {}
+    require("lspconfig").arduino_language_server.setup({})
   end
 }

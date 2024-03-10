@@ -3,7 +3,8 @@ return {
   config = true,
   opts = {
     ensure_installed = {
-      "clangd"
+      "clangd",
+      "rust-analyzer"
     }
   }
 }

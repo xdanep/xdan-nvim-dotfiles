@@ -34,6 +34,15 @@ return {
       end,
     }
     require("lspconfig").cmake.setup {}
+    require("lspconfig").rust_analyzer.setup{
+      settings = {
+        ['rust-analyzer'] = {
+          diagnostics = {
+            enable = false;
+          }
+        }
+      }
+    }
     require("lspconfig").arduino_language_server.setup({})
   end
 }

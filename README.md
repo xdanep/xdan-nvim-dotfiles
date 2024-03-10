@@ -25,6 +25,7 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 - catppuccin
 
 ### LSP:
+- rust-analyzer
 - cmake-language-server
 - arduino-language-server
 - clangd

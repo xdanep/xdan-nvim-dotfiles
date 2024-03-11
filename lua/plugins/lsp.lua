@@ -35,6 +35,10 @@ return {
     }
     require("lspconfig").cmake.setup {}
     require("lspconfig").rust_analyzer.setup{
+      on_attach = function(client, bufnr)
+        client.server_capabilities.sigantureHelpProvider = false
+        on_attach(client,bufnr)
+      end,
       settings = {
         ['rust-analyzer'] = {
           diagnostics = {

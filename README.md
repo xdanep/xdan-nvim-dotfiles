@@ -1,5 +1,5 @@
 # xdan-nvim-dotfiles
-My nvim dotfiles
+My Neovim configuration
 
 ```     
 cd ~/.config/nvim/

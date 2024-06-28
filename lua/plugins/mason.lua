@@ -4,7 +4,9 @@ return {
   opts = {
     ensure_installed = {
       "clangd",
-      "rust-analyzer"
+      "rust_analyzer",
+      "arduino_language_server",
+      "lua_ls"
     }
   }
 }

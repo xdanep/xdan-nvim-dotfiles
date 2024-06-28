@@ -47,6 +47,14 @@ return {
         }
       }
     }
-    require("lspconfig").arduino_language_server.setup({})
+    local MY_FQBN = "arduino:avr:uno"
+    require("lspconfig").arduino_language_server.setup{
+      cmd = {
+        "arduino-language-server",
+        "-cli-config", "/path/to/arduino-cli.yaml",
+        "-fqbn",
+        MY_FQBN
+      }
+    }
   end
 }

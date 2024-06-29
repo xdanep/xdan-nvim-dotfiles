@@ -49,11 +49,20 @@ return {
     }
     local MY_FQBN = "arduino:avr:uno"
     require("lspconfig").arduino_language_server.setup{
+      capabilities = {
+        textDocument = {
+          semanticTokens = vim.NIL
+        },
+        workspace = {
+          semanticTokens = vim.NIL
+        }
+      },
       cmd = {
         "arduino-language-server",
         "-cli-config", "/home/xdanep/.arduino15/arduino-cli.yaml",
-        "-fqbn",
-        MY_FQBN
+        "-cli", "/home/xdanep/bin/arduino-cli",
+        "clangd", "/usr/bin/clangd",
+        "-fqbn", MY_FQBN
       }
     }
   end

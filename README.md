@@ -20,6 +20,7 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 - nvim-tree.lua 
 - nvim-treesitter
 - vim-fugitive
+- mason-lspconfig.nvim
 
 ## Colorscheme
 - catppuccin

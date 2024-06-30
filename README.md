@@ -21,14 +21,19 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 - nvim-lspconfig
 - nvim-tree.lua 
 - nvim-treesitter
+- telescope.nvim
 - vim-fugitive
 
 ## Colorscheme
 - catppuccin
 
-### LSP:
+## LSP:
 - rust-analyzer
 - cmake-language-server
 - arduino-language-server
 - clangd
 - lua-language-server
+
+## Dependencies
+- `fd`
+- `ripgrep` 

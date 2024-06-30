@@ -10,9 +10,11 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 - gitsigns.nvim
 - indent-blankline.nvim
 - lazy.nvim
+- lsp-signature
 - lualine.nvim
-- LuaSnip
+- LuaSnip 
 - mason.nvim
+- mason-lspconfig.nvim
 - neodev.nvim
 - nvim-autopairs
 - nvim-cmp
@@ -20,7 +22,6 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 - nvim-tree.lua 
 - nvim-treesitter
 - vim-fugitive
-- mason-lspconfig.nvim
 
 ## Colorscheme
 - catppuccin

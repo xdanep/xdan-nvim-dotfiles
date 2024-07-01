@@ -7,6 +7,7 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 ```
 ## Plugins:
 - bufferline.nvim
+- flash.nvim
 - gitsigns.nvim
 - indent-blankline.nvim
 - lazy.nvim

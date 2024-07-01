@@ -1,10 +1,6 @@
 return {
   "ray-x/lsp_signature.nvim",
   event = "VeryLazy",
-  opts = {
-    handler_opts = {
-      border = "none"   -- double, rounded, single, shadow, none, or a table of borders
-    },
-  },
+  opts = {},
   config = function(_, opts) require'lsp_signature'.setup(opts) end
 }

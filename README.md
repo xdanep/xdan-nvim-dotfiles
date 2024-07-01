@@ -10,7 +10,7 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 - gitsigns.nvim
 - indent-blankline.nvim
 - lazy.nvim
-- lsp-signature
+- lsp_signature.nvim
 - lualine.nvim
 - LuaSnip 
 - mason.nvim
@@ -21,6 +21,7 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 - nvim-lspconfig
 - nvim-tree.lua 
 - nvim-treesitter
+- nvim-rip-substitute
 - telescope.nvim
 - vim-fugitive
 
@@ -36,4 +37,4 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 
 ## Dependencies
 - `fd`
-- `ripgrep` 
+- `ripgrep` with `pcre2` support 

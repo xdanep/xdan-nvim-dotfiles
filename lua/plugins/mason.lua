@@ -6,7 +6,8 @@ return {
       "clangd",
       "rust_analyzer",
       "arduino_language_server",
-      "lua_ls"
+      "lua_ls",
+      "pyright"
     }
   }
 }

@@ -47,6 +47,7 @@ return {
         }
       }
     }
+    require("lspconfig").pyright.setup{}
     local MY_FQBN = "arduino:avr:uno"
     require("lspconfig").arduino_language_server.setup{
       capabilities = {

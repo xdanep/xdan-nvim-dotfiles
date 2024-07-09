@@ -9,7 +9,8 @@ return {
         'arduino_language_server',
         'clangd',
         'rust_analyzer',
-        'lua_ls'
+        'lua_ls',
+        'pyright'
       }
     })
   end

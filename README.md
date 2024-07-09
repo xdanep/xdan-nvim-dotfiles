@@ -35,7 +35,9 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 - arduino-language-server
 - clangd
 - lua-language-server
+- pyright
 
 ## Dependencies
 - `fd`
 - `ripgrep` with `pcre2` support 
+- `npm`

@@ -36,6 +36,7 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 - clangd
 - lua-language-server
 - pyright
+- dcmls
 
 ## Dependencies
 - `fd`

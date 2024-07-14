@@ -16,6 +16,7 @@ return {
 			"python",
 			"rust",
       "arduino",
+      "dart"
 		},
 		highlight = {
 			enable = true,

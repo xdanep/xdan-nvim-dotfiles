@@ -30,11 +30,11 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 - catppuccin
 
 ## LSP:
-- rust-analyzer
-- cmake-language-server
-- arduino-language-server
+- rust_analyzer
+- cmake
+- arduino_language_server
 - clangd
-- lua-language-server
+- lua_ls
 - pyright
 
 ## Dependencies

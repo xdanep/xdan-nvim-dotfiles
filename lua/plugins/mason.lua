@@ -7,7 +7,8 @@ return {
       "rust_analyzer",
       "arduino_language_server",
       "lua_ls",
-      "pyright"
+      "pyright",
+      "cmake"
     }
   }
 }

@@ -22,7 +22,8 @@ return {
       "yaml",
       "json",
       "cmake",
-      "gitcommit"
+      "gitcommit",
+      "regex"
 		},
 		highlight = {
 			enable = true,

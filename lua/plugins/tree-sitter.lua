@@ -16,7 +16,13 @@ return {
 			"python",
 			"rust",
       "arduino",
-      "dart"
+      "dart",
+      "gitignore",
+      "toml",
+      "yaml",
+      "json",
+      "cmake",
+      "gitcommit"
 		},
 		highlight = {
 			enable = true,

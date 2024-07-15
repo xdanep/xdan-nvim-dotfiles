@@ -5,7 +5,7 @@ My Neovim configuration
 cd ~/.config/nvim/
 git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 ```
-## Plugins:
+## Most significant plugins:
 - bufferline.nvim
 - flash.nvim
 - gitsigns.nvim
@@ -16,7 +16,6 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 - LuaSnip 
 - mason.nvim
 - mason-lspconfig.nvim
-- neodev.nvim
 - nvim-autopairs
 - nvim-cmp
 - nvim-lspconfig

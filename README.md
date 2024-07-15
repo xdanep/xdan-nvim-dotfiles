@@ -41,3 +41,11 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 - `fd`
 - `ripgrep` with `pcre2` support 
 - `npm`
+
+# Screenscreenshots
+### Editor
+<br> <img src="https://drive.proton.me/urls/VEP1B5X468#UUcmQlAzjY7a"/> <br>
+### Vim fugitive
+<br> <img src="https://drive.proton.me/urls/EK8TDVN93R#H7V9bwj3A6kX"/> <br>
+### Telescope
+<br> <img src="https://drive.proton.me/urls/BR5QFCEQ0R#KzDS4z0dqMVO"/> <br>

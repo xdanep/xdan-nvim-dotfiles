@@ -44,8 +44,8 @@ git clone https://github.com/xdanep/xdan-nvim-dotfiles.git
 
 # Screenscreenshots
 ### Editor
-<br> <img src="https://drive.proton.me/urls/VEP1B5X468#UUcmQlAzjY7a"/> <br>
+<br> <img src="https://github.com/xdanep/xdan-nvim-dotfiles/blob/main/screenshots/editor.png"/> <br>
 ### Vim fugitive
-<br> <img src="https://drive.proton.me/urls/EK8TDVN93R#H7V9bwj3A6kX"/> <br>
+<br> <img src="https://github.com/xdanep/xdan-nvim-dotfiles/blob/main/screenshots/vim_fugitive.png"/> <br>
 ### Telescope
-<br> <img src="https://drive.proton.me/urls/BR5QFCEQ0R#KzDS4z0dqMVO"/> <br>
+<br> <img src="https://github.com/xdanep/xdan-nvim-dotfiles/blob/main/screenshots/telescope.png"/> <br>
